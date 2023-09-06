@@ -12,7 +12,7 @@ easy() {
  #   echo "File Name : $executable_name"
     echo "g++ -g $cpp_file -o $executable_name"
     echo "--------Program Run Bellow--------"
-    gcc -g "$cpp_file" -o "$executable_name"
+    g++ -g "$cpp_file" -o "$executable_name"
     if [ $? -eq 0 ]; then
         "./$executable_name"
     else
