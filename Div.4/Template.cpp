@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#define ll long long
+
 void Solution()
 {
 
@@ -9,10 +11,10 @@ void Solution()
 
 int main()
 {
-    int T;
-    cin >> T;
-    while(T--) {
-        Solution();
-    }
-    return 0;
+    	int T;
+    	cin >> T;
+    	while(T--) {
+        	Solution();
+    	}
+    	return 0;
 }
